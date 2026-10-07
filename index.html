@@ -19,7 +19,22 @@
   <meta name="twitter:title" content="Al-Noor Auto Workshop | Professional Auto Repair &amp; Service">
   <meta name="twitter:description" content="Dependable repair, diagnostics and maintenance with clear communication.">
   <meta name="twitter:image" content="https://www.example.com/og-image.jpg">
-
+{
+  "name": "al-noor-auto-workshop",
+  "version": "1.0.0",
+  "description": "Al-Noor Auto Workshop: demo local-business website with an Express API",
+  "main": "server/server.js",
+  "scripts": { "start": "node server/server.js", "dev": "node --watch server/server.js" },
+  "engines": { "node": ">=18" },
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.7",
+    "express": "^4.21.2",
+    "express-rate-limit": "^7.5.0",
+    "helmet": "^8.0.0"
+  }
+}
   <!-- Local business data: DEMO placeholders, replace with real details -->
   <script type="application/ld+json">
   {
